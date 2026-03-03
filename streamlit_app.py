@@ -1,6 +1,6 @@
 # streamlit_app.py
 import streamlit as st
-from rm_pn_generator import (  # ← your original file name, without .py
+from RM_PN_generator import (  # ← your original file name, without .py
     ABBREV_MAP,
     pn_token,
     FORM_ABBREVIATIONS,
@@ -164,3 +164,4 @@ with col_right:
             st.warning("\n".join(res.warnings))
     else:
         st.info("Select options on the left.\n\nGenerated PN will appear here.")
+
