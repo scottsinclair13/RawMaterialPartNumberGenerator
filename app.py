@@ -305,7 +305,7 @@ if st.session_state.get("category", "") != "":
                 "Length of Spool",
                 value=st.session_state.get("cable_length", ""),
                 key="cable_length",
-                placeholder="e.g. 1000 ft or 500 m"
+                placeholder="e.g. 1000ft or 500m"
             )
 
         # ───────────────────────────────────────────────
