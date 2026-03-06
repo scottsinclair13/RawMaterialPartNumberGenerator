@@ -208,7 +208,7 @@ if st.session_state.get("category", "") != "":
         )       
     
     
-    st.write(f"DEBUG: alloy value just after selectbox = '{st.session_state.get('third_Metals', 'NOT SET')}'")
+    #st.write(f"DEBUG: alloy value just after selectbox = '{st.session_state.get('third_Metals', 'NOT SET')}'")
     
     
     
@@ -305,7 +305,7 @@ if st.session_state.get("category", "") != "":
                 "Length of Spool",
                 value=st.session_state.get("cable_length", ""),
                 key="cable_length",
-                placeholder="e.g. 1000 ft or 500 m"
+                placeholder="e.g. 1000ft or 500m"
             )
 
         # ───────────────────────────────────────────────
@@ -739,5 +739,3 @@ if st.session_state.get("category", "") != "":
                         f'<div class="pn-container"><div class="pn-box">{pn}</div></div>',
                         unsafe_allow_html=True
                     )
-
-                                        
