@@ -208,7 +208,7 @@ if st.session_state.get("category", "") != "":
         )       
     
     
-    st.write(f"DEBUG: alloy value just after selectbox = '{st.session_state.get('third_Metals', 'NOT SET')}'")
+    #st.write(f"DEBUG: alloy value just after selectbox = '{st.session_state.get('third_Metals', 'NOT SET')}'")
     
     
     
@@ -739,5 +739,6 @@ if st.session_state.get("category", "") != "":
                         f'<div class="pn-container"><div class="pn-box">{pn}</div></div>',
                         unsafe_allow_html=True
                     )
+
 
                                         
